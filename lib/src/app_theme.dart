@@ -5,6 +5,9 @@ import 'package:flutter_common_theme/src/theme_typography.dart';
 
 class AppTheme {
   static ThemeData lightTheme = ThemeData(
+    scaffoldBackgroundColor: Colors.grey[100],
+    primarySwatch: Colors.blue,
+    visualDensity: VisualDensity.adaptivePlatformDensity,
     useMaterial3: true,
     colorScheme: const ColorScheme(
       brightness: Brightness.light,

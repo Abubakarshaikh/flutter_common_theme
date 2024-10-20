@@ -3,7 +3,7 @@ import 'package:flutter_common_theme/src/theme_colors.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class ThemeTypography {
-  static TextTheme textTheme = GoogleFonts.interTextTheme();
+  static TextTheme textTheme = GoogleFonts.urbanistTextTheme();
 
   static TextTheme get lightTextTheme => textTheme.apply(
         bodyColor: ThemeColors.onBackgroundLight,
