@@ -22,7 +22,6 @@ final class _ColorsUtils {
 }
 
 abstract class ColorSchemeUtils {
-  
   static const ColorScheme kDarkColorScheme = ColorScheme(
     primary: _ColorsUtils.white,
     onPrimary: _ColorsUtils.black,
@@ -56,8 +55,8 @@ abstract class ColorSchemeUtils {
     onPrimary: _ColorsUtils.white,
     secondary: _ColorsUtils.azaleaPink,
     onSecondary: _ColorsUtils.black,
-    surface: _ColorsUtils.blueGray,
-    onSurface: _ColorsUtils.white,
+    surface: _ColorsUtils.white,
+    onSurface: _ColorsUtils.black,
     error: _ColorsUtils.red,
     onError: _ColorsUtils.white,
     outline: _ColorsUtils.lightGrey,
