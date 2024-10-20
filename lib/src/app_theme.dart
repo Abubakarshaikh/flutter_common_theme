@@ -20,6 +20,7 @@ class AppTheme {
         inputDecorationTheme: _themeUtil.kBaseInputDecorationTheme,
         colorScheme: ColorSchemeUtils.kStandardColorScheme,
         textTheme: ThemeTypography.lightTextTheme,
+        elevatedButtonTheme: _themeUtil.kBaseElevatedButtonThemeData,
         extensions: const [
           CustomThemeExtension(
             customColor1: Color(0xFF6200EE),
